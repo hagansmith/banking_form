@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>You are APPROVED! Banking Loan</title>
+</head>
+<body>
+	<form>
+		<div id ="generalInfo"><h4>General Information</h4>
+			First Name:<br>
+			<input type="text" name="first_name"><br>
+			Middle Initial:<br>
+			<input type="text" name="middle_init"><br>
+			Last Name:<br>
+			<input type="text" name="last_name"><br>
+			Address:<br>
+			<input type="text" name="address"><br>
+		</div>
+
+		<div id ="employerInfo"><h4>Employer Information</h4>
+			Occupation:<br>
+			<input type="text" name="occupation"><br>
+			Employer:<br>
+			<input type="text" name="employer"><br>
+			Employer Address:<br>
+			<input type="text" name="employer_address">
+		</div>
+
+		<div id ="loanInfo"><h4>Loan Information</h4>
+			Loan Type:<br>
+			<select name="loan_type">
+	  			 <option value="Commercial">Commercial</option>
+				 <option value="Real Estate">Real estate</option>
+				 <option value="Personal">Personal</option>
+				 <option value="Mortgage">Mortgage</option>
+			</select><br>
+			Loan Amount:<br>
+			<input type="number" name="loan_amount" ><br>
+			Loan Term:<br>
+			<div id = "loanTerm">
+				<input type="radio" name="loan_length" value="5 years">5 years<br>
+				<input type="radio" name="loan_length" value="15 years">15 years<br>
+				<input type="radio" name="loan_length" value="30 years">30 years<br>
+			</div>
+			Special Conditions:<br>
+			<div id ="specialConditions">
+				<input type="checkbox" name="down_payment" value="Bike"> I have a down payment<br>
+		  		<input type="checkbox" name="out_of_state" value="Car"> Out-of-state resident<br> 
+		  		<input type="checkbox" name="married" value="Bike"> Married<br>
+		  		<input type="checkbox" name="co_sign" value="Car"> Loan will be co-signed
+	  		</div>
+	  		Additional Comments:<br>
+	  		<div id="additionalComments">
+	  			<textarea name="additional_comments">Add any additional comments:</textarea>
+	  		</div>
+	  	</div>
+	  	<div id="contactInfo"><h4>Contact Information</h4>
+	  		Email:<br>
+	  		<input type="email" name="email"><br>
+	  		Telephone:<br>
+	  		<input type="tel" name="telephone"><br>
+	  		LinkedIn Profie:<br>
+	  		<input type="url" name="linkedIn">
+	  	</div>
+	</form>
+</body>
+</html>
